@@ -63,7 +63,7 @@ setupTrash();
         const top = randomNumberBetween(0,35)
         const size = top / 5 + 1
         img.classList.add("trash")
-        img.src = `/imgs/${icon}.svg`
+        img.src = `./imgs/${icon}.svg`
         img.style.width =  `${size}vmin`
         img.style.height =  `${size}vmin`
         img.style.top = `${top}vh`
